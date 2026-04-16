@@ -77,6 +77,9 @@ Returns_Fact → Sales_Fact
 
 Returns_Fact → Date_Dim (inactive)
 
+<img width="1166" height="734" alt="image" src="https://github.com/user-attachments/assets/9e3c8f96-6e80-4164-83fb-ebe4f5e8815d" />
+
+
 #### 👉 Set:
 
 Cardinality = Many to One
@@ -90,22 +93,42 @@ Keep Sales_Fact in center
 Connect all dimension tables around it
 
 #### 👉 This structure is called Star Schema
+<img width="1208" height="924" alt="image" src="https://github.com/user-attachments/assets/b38cf261-9447-4740-a19d-ee263ea6ce9f" />
 
-### 🔹 Step 5: Handle Returns Table
+### 🔹 Step 5: Snowflake Schema
+
+Keep Sales_Fact in center
+
+Connect all dimension tables around it
+
+#### 👉 This structure is called Snowflake Schema
+<img width="1130" height="903" alt="image" src="https://github.com/user-attachments/assets/4612f40f-e38a-45f0-b9ff-5262c2be45a4" />
+
+
+### 🔹 Step 6: Handle Returns Table
 
 Keep Returns_Fact as separate table
 
 Use inactive relationship for Return Date
 
-### 🔹 Step 6: Create Hierarchies
+### 🔹 Step 7: Create Hierarchies
 
-Date → Year > Quarter > Month > Date
+#### Date → Year > Quarter > Month > Date
 
-Region → Country > State > City
+<img width="333" height="163" alt="image" src="https://github.com/user-attachments/assets/233d7f90-493b-40ca-9118-19f0f6eebffa" />
 
-Product → Category > Subcategory > Product
 
-### 🔹 Step 7: Format Data
+#### Region → Country > State > City
+
+<img width="323" height="121" alt="image" src="https://github.com/user-attachments/assets/da9f7527-faa7-4743-b494-32114512eabd" />
+
+
+#### Product → Category > Subcategory > Product
+
+<img width="330" height="116" alt="image" src="https://github.com/user-attachments/assets/4f548936-bca6-451f-8411-b0148e0b4dee" />
+
+
+### 🔹 Step 8: Format Data
 
 Revenue → Currency
 
@@ -113,7 +136,7 @@ Quantity → Whole Number
 
 Date → Date format
 
-### 🔹 Step 8: Validate Model
+### 🔹 Step 9: Validate Model
 
 Use Matrix Visual to check:
 
@@ -133,6 +156,4 @@ Proper relationships
 
 Ready for reporting
 
-# Project Presentation
 
-<img width="1369" height="1149" alt="image" src="https://github.com/user-attachments/assets/0ba8a5c2-4304-4d2a-9ae9-081251187fb2" />
