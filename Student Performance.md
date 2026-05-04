@@ -72,6 +72,9 @@ It transforms raw datasets into **interactive insights** using Power BI data mod
 
 <img width="1219" height="800" alt="image" src="https://github.com/user-attachments/assets/c7645b8c-e0ac-4d7b-a0fc-40b771fd2a1d" />
 
+# 🔗Video Explanation Link
+
+https://drive.google.com/file/d/1tBEknxU2YzioQcZG1QMIvvJyzvT6AqZg/view?usp=sharing
 
 ---
 
